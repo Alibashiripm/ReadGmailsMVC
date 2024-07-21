@@ -1,0 +1,25 @@
+﻿@model  GmaiApiMVC.Models.RequestViewModel
+@{
+ 
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>سرچ</h2>
+ 
+<form method="post">
+    <input type="hidden" name="key" value="YourKey"/>
+    <div class="form-group">
+        <label for="subject">Enter Subject:</label>
+        <input type="text" class="form-control" id="subject"  name="subject">
+    </div>     
+    <div class="form-group">
+        <label for="Sender">Enter Sender:</label>
+        <input type="text" class="form-control" id="Sender"  name="Sender">
+    </div> 
+    <br />
+    <div class="form-group">
+         <button id="inputSumit" type="submit" class="btn btn-primary">Submit</button>
+
+    </div>
+</form>

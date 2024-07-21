@@ -1,0 +1,11 @@
+{
+  "url": "https://localhost:44358/",
+  "ClientId": "574919137521.apps.googleusercontent.com",
+  "ClientSecret": "GOCSPX",
+  "Key": "YourKey",
+  "ValidSener": [
+    "<hi@jobinja.ir>",
+    "<no-reply@nic.ir>",
+    " "
+  ]
+}
